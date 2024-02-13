@@ -1,0 +1,42 @@
+{
+  "name": "expo-orientation-listener",
+  "version": "0.1.0",
+  "description": "My new module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-orientation-listener",
+    "ExpoOrientationListener"
+  ],
+  "repository": "https://github.com/ronhdez7/expo-orientation-listener",
+  "bugs": {
+    "url": "https://github.com/ronhdez7/expo-orientation-listener/issues"
+  },
+  "author": "ronald hernandez <ronaldhp2007@gmail.com> (https://github.com/ronhdez7)",
+  "license": "MIT",
+  "homepage": "https://github.com/ronhdez7/expo-orientation-listener#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.4.0",
+    "expo-modules-core": "^1.11.2"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

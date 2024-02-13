@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-orientation-listener": ["../src/index"],
+      "expo-orientation-listener/*": ["../src/*"]
+    }
+  }
+}
